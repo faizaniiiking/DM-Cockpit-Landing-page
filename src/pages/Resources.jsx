@@ -20,7 +20,7 @@ const Resources = () => {
         <h1 className="text-4xl font-bold text-purple-1000 mb-4">
           Frequently Asked Questions
         </h1>
-        <p className="text-lg text-purple-900">Ask Us Anything</p>
+        <p className="text-lg text-purple-1000">Ask Us Anything</p>
       </div>
 
       {/* FAQ Container with Two Columns */}

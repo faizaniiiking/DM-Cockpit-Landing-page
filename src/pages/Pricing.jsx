@@ -10,7 +10,7 @@ const Pricing = () => {
       </h1>
 
       <p
-        className="text-lg text-purple-600 text-center mt-4 mx-auto max-w-sm leading-relaxed"
+        className="text-lg text-purple-1000 text-center mt-4 mx-auto max-w-sm leading-relaxed"
         style={{
           display: "-webkit-box",
           WebkitBoxOrient: "vertical",
@@ -27,7 +27,7 @@ const Pricing = () => {
       <h1 className="text-5xl font-bold text-purple-1000 mb-4 text-center">
         Are you an <span className="text-green-600">Agency?</span>
       </h1>
-      <p className="text-2xl text-purple-600 mb-6 text-center">
+      <p className="text-2xl text-purple-1000 mb-6 text-center">
         Then Plans fit you{" "}
         <span className="text-orange-500 font-bold">perfectly</span>
       </p>
@@ -59,11 +59,15 @@ const Pricing = () => {
 
       {/* Numbered Grid Section */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 ">
-        <div className="border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-red-700 text-white   ">
-          <h1 className="text-purple-1000 font-extrabold text-2xl ">Free Digital</h1>
-          <p className="text-gray-400">For Professional Use</p>
+        <div className="group border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-purple-1000 text-white">
+          <h1 className="text-purple-1000 font-extrabold text-2xl group-hover:text-white">
+            Free Digital
+          </h1>
+          <p className="text-gray-400 group-hover:text-white">
+            For Professional Use
+          </p>
 
-          <p className="text-black">
+          <p className="text-black group-hover:text-white">
             For Small Agencies
             <br />
             Agency Dashboard
@@ -84,15 +88,20 @@ const Pricing = () => {
             <br />
             more features.
           </p>
-          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4">Choose Plan</button>
+          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4 group-hover:bg-green-500">
+            Choose Plan
+          </button>
         </div>
-        
 
-        <div className="border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-purple-1000 text-white  ">
-          <h1 className="text-purple-1000 font-extrabold text-2xl">Free Digital</h1>
-          <p className="text-gray-400">For Professional Use</p>
+        <div className="group border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-purple-1000 text-white">
+          <h1 className="text-purple-1000 font-extrabold text-2xl group-hover:text-white">
+            Free Digital
+          </h1>
+          <p className="text-gray-400 group-hover:text-white">
+            For Professional Use
+          </p>
 
-          <p className="text-black">
+          <p className="text-black group-hover:text-white">
             For Small Agencies
             <br />
             Agency Dashboard
@@ -113,13 +122,20 @@ const Pricing = () => {
             <br />
             more features.
           </p>
-          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4">Choose Plan</button>
+          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4 group-hover:bg-green-500">
+            Choose Plan
+          </button>
         </div>
-        <div className="border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-purple-1000 text-white  ">
-          <h1 className="text-purple-1000 font-extrabold text-2xl">Free Digital</h1>
-          <p className="text-gray-400">For Professional Use</p>
 
-          <p className="text-black">
+        <div className="group border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-purple-1000 text-white">
+          <h1 className="text-purple-1000 font-extrabold text-2xl group-hover:text-white">
+            Free Digital
+          </h1>
+          <p className="text-gray-400 group-hover:text-white">
+            For Professional Use
+          </p>
+
+          <p className="text-black group-hover:text-white">
             For Small Agencies
             <br />
             Agency Dashboard
@@ -140,13 +156,20 @@ const Pricing = () => {
             <br />
             more features.
           </p>
-          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4">Choose Plan</button>
+          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4 group-hover:bg-green-500">
+            Choose Plan
+          </button>
         </div>
-        <div className="border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-purple-1000 text-white  ">
-          <h1 className="text-purple-1000 font-extrabold text-2xl">Free Digital</h1>
-          <p className="text-gray-400">For Professional Use</p>
 
-          <p className="text-black">
+        <div className="group border-2 border-gray-600 p-4 text-center rounded-2xl hover:bg-purple-1000 text-white">
+          <h1 className="text-purple-1000 font-extrabold text-2xl group-hover:text-white">
+            Free Digital
+          </h1>
+          <p className="text-gray-400 group-hover:text-white">
+            For Professional Use
+          </p>
+
+          <p className="text-black group-hover:text-white">
             For Small Agencies
             <br />
             Agency Dashboard
@@ -167,17 +190,17 @@ const Pricing = () => {
             <br />
             more features.
           </p>
-          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4">Choose Plan</button>
+          <button className="text-white font-extrabold bg-purple-1000 rounded-xl px-20 py-4 mt-4 group-hover:bg-green-500">
+            Choose Plan
+          </button>
         </div>
-        {/* <div className="border-2 border-gray-600 p-4 text-center">2</div>
-        <div className="border-2 border-gray-600 p-4 text-center">3</div>
-        <div className="border-2 border-gray-600 p-4 text-center">4</div> */}
       </div>
 
       {/* "As straightforward as it gets" Section */}
       <h1 className="text-3xl font-bold text-purple-1000 mt-8 text-center">
         As straightforward as it gets
       </h1>
+      
       <p
         className="text-lg text-purple-900 text-center mt-4 mx-auto max-w-sm leading-relaxed"
         style={{
