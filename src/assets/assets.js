@@ -2,7 +2,7 @@
 import roket_svg from "./rocket.svg"
 import logo from "./Group 5.svg"
 import headerBanner from "./dmc.png"
-import whitebg from "./intersection 33.png"
+import whitebg from "./Intersection 33.png"
 import humanSvg from "./Group 24104.svg"
 import DMImages from "./image 28.png"
 import pricingImg from "./image 26.png"
